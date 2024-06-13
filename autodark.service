@@ -1,0 +1,11 @@
+[Unit]
+Description=AutoDark for Plasma by hhk02
+
+[Service]
+Type=simple
+#User=
+#Group=
+ExecStart=/usr/bin/plasma-autodark
+[Install]
+WantedBy=default.target
+

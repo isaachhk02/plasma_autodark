@@ -1,0 +1,10 @@
+[Unit]
+Description=Plasma Auto Dark Check Service
+
+[Timer]
+OnUnitActiveSec=1m
+AccuracySec=10s
+Unit=autodark.service
+
+[Install]
+WantedBy=default.target
