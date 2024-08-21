@@ -2,7 +2,10 @@
 KDE Plasma Auto Dark Mode
 Created by hhk02
 */
-
+#include <unistd.h>
+#include <stdio.h>
+#include <chrono>
+#include <ctime>
 #include "plasma-autodark.h"
 
 void ChangeToDarkTheme() {
