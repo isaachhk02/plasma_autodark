@@ -5,7 +5,7 @@ Description=AutoDark for Plasma by hhk02
 Type=simple
 #User=
 #Group=
-ExecStart=/usr/bin/plasma-autodark
+ExecStart=/usr/bin/autodark
 [Install]
 WantedBy=default.target
 
