@@ -1,5 +1,5 @@
-plasma-autodark:
-	g++ autodark.cpp -o autodark
+make:
+	g++ autodark.cpp -o autodark $(pkg-config --cflags --libs Qt6Core KF6ConfigCore KF6CoreAddons)
 
 install:
 	echo "Copying binary to /usr/bin"
