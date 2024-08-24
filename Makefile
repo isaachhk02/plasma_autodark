@@ -1,6 +1,5 @@
 make:
-	g++ autodark.cpp -o autodark $(pkg-config --cflags --libs Qt6Core KF6ConfigCore KF6CoreAddons)
-
+	g++ autodark.cpp -o autodark
 install:
 	echo "Copying binary to /usr/bin"
 	sudo cp -v autodark /usr/bin
