@@ -1,6 +1,6 @@
 # Auto Dark Mode for KDE Plasma 5 and 6
 
-Created by hhk02
+Created by isaachhk02
 
 This small program changes your current theme depending of the hour of the system.
 
