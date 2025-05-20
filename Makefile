@@ -11,3 +11,11 @@ install:
 	systemctl --user enable --now autodark.service
 	systemctl --user enable --now autodark.timer
 	echo "Done!"
+uninstall:
+	echo "Removing binaries"
+	sudo rm -v /usr/bin/autodark
+	echo "Removing systemd user services"
+	sudo rm -v /etc/systemd/user/autodark*
+	systemctl --user daemon-reload
+	echo "Uninstall done!"
+	
