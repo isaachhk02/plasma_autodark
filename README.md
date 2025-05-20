@@ -31,6 +31,6 @@ This small program changes your current theme depending of the hour of the syste
 #  Enable on start the OS:
    ``systemctl --user enable autodark.service``
    ``systemctl --user enable autodark.timer``
+# Uninstall
 
-# LIMITS:
--   For the moment can't use custom themes for change
+``make uninstall``
